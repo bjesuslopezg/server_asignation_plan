@@ -8,11 +8,6 @@
   },
   "servers": [
     {
-      "CPU": 2.8,
-      "Memoria": 7.0,
-      "Red": 730,
-      "Disco_IO": 125,
-      "Almacenamiento": 1244,
       "name": "S1",
       "services": [
         "App2",
@@ -20,14 +15,14 @@
         "App5",
         "App7",
         "BD1"
-      ]
-    },
-    {
+      ],
       "CPU": 2.8,
       "Memoria": 7.0,
-      "Red": 730,
-      "Disco_IO": 125,
-      "Almacenamiento": 1244,
+      "Red": 730.0,
+      "Disco_IO": 125.0,
+      "Almacenamiento": 1244.0
+    },
+    {
       "name": "S2",
       "services": [
         "App2",
@@ -35,14 +30,14 @@
         "App5",
         "App7",
         "BD1"
-      ]
-    },
-    {
+      ],
       "CPU": 2.8,
       "Memoria": 7.0,
-      "Red": 730,
-      "Disco_IO": 125,
-      "Almacenamiento": 1244,
+      "Red": 730.0,
+      "Disco_IO": 125.0,
+      "Almacenamiento": 1244.0
+    },
+    {
       "name": "S3",
       "services": [
         "App2",
@@ -50,89 +45,94 @@
         "App5",
         "App7",
         "BD1"
-      ]
+      ],
+      "CPU": 2.8,
+      "Memoria": 7.0,
+      "Red": 730.0,
+      "Disco_IO": 125.0,
+      "Almacenamiento": 1244.0
     },
     {
-      "CPU": 2.3,
-      "Memoria": 5.6,
-      "Red": 750,
-      "Disco_IO": 105,
-      "Almacenamiento": 1090,
       "name": "S4",
       "services": [
         "App2",
         "App6",
         "App7",
         "BD2"
-      ]
+      ],
+      "CPU": 2.3,
+      "Memoria": 5.6,
+      "Red": 750.0,
+      "Disco_IO": 105.0,
+      "Almacenamiento": 1090.0
     },
     {
-      "CPU": 1.85,
-      "Memoria": 5.6,
-      "Red": 760,
-      "Disco_IO": 130,
-      "Almacenamiento": 1095,
       "name": "S5",
       "services": [
         "App5",
         "App6",
         "BD2",
         "Web"
-      ]
-    },
-    {
+      ],
       "CPU": 1.85,
       "Memoria": 5.6,
-      "Red": 760,
-      "Disco_IO": 130,
-      "Almacenamiento": 1095,
+      "Red": 760.0,
+      "Disco_IO": 130.0,
+      "Almacenamiento": 1095.0
+    },
+    {
       "name": "S6",
       "services": [
         "App5",
         "App6",
         "BD2",
         "Web"
-      ]
+      ],
+      "CPU": 1.85,
+      "Memoria": 5.6,
+      "Red": 760.0,
+      "Disco_IO": 130.0,
+      "Almacenamiento": 1095.0
     },
     {
-      "CPU": 1.4500000000000002,
-      "Memoria": 5.6,
-      "Red": 430,
-      "Disco_IO": 190,
-      "Almacenamiento": 245,
       "name": "S7",
       "services": [
         "App1",
         "App3",
         "App5",
         "Web"
-      ]
+      ],
+      "CPU": 1.4500000000000002,
+      "Memoria": 5.6,
+      "Red": 430.0,
+      "Disco_IO": 190.0,
+      "Almacenamiento": 245.0
     },
     {
-      "CPU": 1.1500000000000001,
-      "Memoria": 4.199999999999999,
-      "Red": 400,
-      "Disco_IO": 170,
-      "Almacenamiento": 175,
       "name": "S8",
       "services": [
         "App1",
         "App3",
         "Web"
-      ]
-    },
-    {
+      ],
       "CPU": 1.1500000000000001,
       "Memoria": 4.199999999999999,
-      "Red": 400,
-      "Disco_IO": 170,
-      "Almacenamiento": 175,
+      "Red": 400.0,
+      "Disco_IO": 170.0,
+      "Almacenamiento": 175.0
+    },
+    {
       "name": "S9",
       "services": [
         "App1",
         "App3",
         "Web"
-      ]
+      ],
+      "CPU": 1.1500000000000001,
+      "Memoria": 4.199999999999999,
+      "Red": 400.0,
+      "Disco_IO": 170.0,
+      "Almacenamiento": 175.0
     }
   ]
 }
