@@ -18,7 +18,7 @@ module "pricing" {
   resources = {
 
     "aws_instance.my_servers#9" = {
-      instanceType = "i7i.4xlarge"
+      instanceType = "t2.2xlarge"
       location     = "us-east-1"
     }
 
